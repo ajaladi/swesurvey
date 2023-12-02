@@ -1,4 +1,4 @@
 FROM openjdk:17
-COPY swesurvey.jar swesurvey.jar
-ENTRYPOINT ["java", "-jar", "/swesurvey.jar"]
+COPY surveyjar.jar surveyjar.jar
+ENTRYPOINT ["java", "-jar", "/surveyjar.jar"]
 EXPOSE 8080
