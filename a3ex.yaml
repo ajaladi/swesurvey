@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "a3ex"
+  cluster:
+    server: "https://54.158.3.207/k8s/clusters/c-m-bscxmq5r"
+    certificate-authority-data: "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJ2VENDQ\
+      VdPZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQkdNUnd3R2dZRFZRUUtFeE5rZVc1aGJXbGoKY\
+      kdsemRHVnVaWEl0YjNKbk1TWXdKQVlEVlFRRERCMWtlVzVoYldsamJHbHpkR1Z1WlhJdFkyRkFNV\
+      GN3TVRjMQpNekE1TlRBZUZ3MHlNekV5TURVd05URXhNelZhRncwek16RXlNREl3TlRFeE16VmFNR\
+      Vl4SERBYUJnTlZCQW9UCkUyUjVibUZ0YVdOc2FYTjBaVzVsY2kxdmNtY3hKakFrQmdOVkJBTU1IV\
+      1I1Ym1GdGFXTnNhWE4wWlc1bGNpMWoKWVVBeE56QXhOelV6TURrMU1Ga3dFd1lIS29aSXpqMENBU\
+      VlJS29aSXpqMERBUWNEUWdBRXpOWFZIaTNCall5SAoxQlJJODlaQ3pvRWVnR0VvTm81b1JEVlNyT\
+      DVGSzBqQkY0WXY5cFhTTnpBdGlvTUZrK0JjQ282RWZoRVdWZTVRClIxdGFmU1hpdGFOQ01FQXdEZ\
+      1lEVlIwUEFRSC9CQVFEQWdLa01BOEdBMVVkRXdFQi93UUZNQU1CQWY4d0hRWUQKVlIwT0JCWUVGR\
+      0VvZnF3MlE4SFRTSHUyZUh3S1AvZkI1ZVRZTUFvR0NDcUdTTTQ5QkFNQ0EwZ0FNRVVDSUFkVAo0S\
+      jZvbHQ1YWpQNk1WUmVFbG52N0JlTHdaUW5GYWcwTk4xUFdjOUxBQWlFQXNjMHNVbEpmQ0pFUGRkS\
+      lhHa1NKCmFLVGU1QmI5enVEc1UrVWRXSExDL3NRPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t"
+
+users:
+- name: "a3ex"
+  user:
+    token: "kubeconfig-user-jh4w9dkhvj:hb5wlbmm7gkh994xjdh2zh778hmlcfq4vm6gx5p5hn48lgnqj4qvwb"
+
+
+contexts:
+- name: "a3ex"
+  context:
+    user: "a3ex"
+    cluster: "a3ex"
+
+current-context: "a3ex"
